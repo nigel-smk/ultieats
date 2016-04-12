@@ -6,3 +6,11 @@ body {
 a {
   color: #00B7FF;
 }
+
+.restaurant-list {
+  background-color: #3361FF;
+}
+
+.restaurant-map {
+  background-color: #DD33FF;
+}

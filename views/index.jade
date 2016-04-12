@@ -1,5 +1,11 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .container-fluid
+    .row.content
+      .col-sm-3.sidenav.restaurant-list
+        h3 Restaurant names go here
+      .col-sm-9.restaurant-map
+        h3 Map goes here
+  footer.container-fluid
+    p Footer Text
