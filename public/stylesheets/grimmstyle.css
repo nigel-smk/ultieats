@@ -1,0 +1,127 @@
+.body {
+  font-family: "Comic Sans MS", cursive, sans-serif !important;
+}
+
+.greenbg1 {
+  background-color: #35aa47;
+  color: #fff;
+}
+
+.greenbg2 {
+  background-color: #95CB4D;
+  color: #000;
+}
+
+.greenbg3 {
+  background-color: #529412;
+  color: #fff;
+}
+
+.greybg {
+  background-color: #ddd;
+  color: #000000;
+}
+
+.whitebg {
+  background-color: #fff;
+  color: #000;
+}
+
+.topbox {
+  box-shadow: 0px 0px 10px #000;
+  position: relative;
+  z-index: 5;
+}
+
+.officebox {
+  padding-top: 40px;
+}
+
+.officebox a {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.listbox {
+  height: 700px;
+  overflow-y: scroll;
+}
+
+.mapbox {
+  height: 700px;
+  overflow: hidden;
+}
+
+.newplace {
+  text-align: center;
+  margin: 15px auto 5px auto;
+}
+
+.newplacebutton {
+  min-width: 200px;
+  width: 90%;
+}
+
+#addnewplace {
+  position: absolute;
+  top: 240px;
+  left: 710px;
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px #000;
+}
+
+.newplaceheader {
+  width: 100%;
+  margin: 0px;
+  padding: -5px 10px 0px;
+}
+
+.listtop {
+  font-size: 1.5em;
+  min-height: 50px;
+  margin-top: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  box-shadow: 0px -1px 5px #888;
+}
+
+.listbottom {
+  min-height: 50px;
+  background-color: #fff;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 2px 5px #888;
+}
+
+.bordertop {
+  border-top: 1px solid #000;
+}
+
+.comments {
+  height: 150px;
+  background-color: #fff;
+  overflow-y: scroll;
+}
+
+.commentstitle {
+  font-weight: bold;
+}
+
+.comment {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.commentname {
+  font-weight: bold;
+}
+
+.commenttext {
+  
+}
+
+.angular-google-map-container {
+  height: 700px;
+}

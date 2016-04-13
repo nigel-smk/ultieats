@@ -1,0 +1,195 @@
+[{
+    "is_claimed": false,
+    "rating": 4.0,
+    "mobile_url": "http://m.yelp.ca/biz/xtreme-taste-toronto-2?utm_campaign=yelp_api&utm_medium=api_v2_business&utm_source=23W1IHykgMhbZw7S7_RFKA",
+    "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+    "review_count": 63,
+    "name": "Xtreme Taste",
+    "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+    "url": "http://www.yelp.ca/biz/xtreme-taste-toronto-2?utm_campaign=yelp_api&utm_medium=api_v2_business&utm_source=23W1IHykgMhbZw7S7_RFKA",
+    "categories": [
+        [
+            "Middle Eastern",
+            "mideastern"
+        ]
+    ],
+    "reviews": [
+        {
+            "rating": 5,
+            "excerpt": "This is the best lunch in the city for those of us who are health conscious and flavour loving. The first time I stopped in, I almost didnt believe they...",
+            "time_created": 1441404104,
+            "rating_image_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png",
+            "rating_image_small_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png",
+            "user": {
+                "image_url": "http://s3-media2.fl.yelpcdn.com/photo/hDq58AVCujptyg62-YgtFg/ms.jpg",
+                "id": "ImBb4MxG9wfTkZfOcfZhJQ",
+                "name": "Andrew A."
+            },
+            "rating_image_large_url": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png",
+            "id": "eCjLYar-Ar5frsXvhG_gGw"
+        }
+    ],
+    "phone": "6473473618",
+    "snippet_text": "This is the best lunch in the city for those of us who are health conscious and flavour loving. The first time I stopped in, I almost didnt believe they...",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/tsecod_-9CR8fn3er0Ywlw/ms.jpg",
+    "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/hDq58AVCujptyg62-YgtFg/ms.jpg",
+    "display_phone": "+1-647-347-3618",
+    "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+    "id": "xtreme-taste-toronto-2",
+    "is_closed": false,
+    "location": {
+        "city": "Toronto",
+        "display_address": [
+            "6 Cumberland Street",
+            "Yorkville",
+            "Toronto, ON M4W 1J5"
+        ],
+        "geo_accuracy": 9.5,
+        "neighborhoods": [
+            "Yorkville"
+        ],
+        "postal_code": "M4W 1J5",
+        "country_code": "CA",
+        "address": [
+            "6 Cumberland Street"
+        ],
+        "coordinate": {
+            "latitude": 43.671081283814,
+            "longitude": -79.387708187348
+        },
+        "state_code": "ON"
+    }
+},
+{
+    "is_claimed": true,
+    "rating": 3.5,
+    "mobile_url": "http://m.yelp.ca/biz/whole-foods-market-toronto?utm_campaign=yelp_api&utm_medium=api_v2_business&utm_source=23W1IHykgMhbZw7S7_RFKA",
+    "rating_img_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+    "review_count": 113,
+    "name": "Whole Foods Market",
+    "rating_img_url_small": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png",
+    "url": "http://www.yelp.ca/biz/whole-foods-market-toronto?utm_campaign=yelp_api&utm_medium=api_v2_business&utm_source=23W1IHykgMhbZw7S7_RFKA",
+    "categories": [
+        [
+            "Grocery",
+            "grocery"
+        ],
+        [
+            "Health Food Store",
+            "healthmarkets"
+        ],
+        [
+            "Organic Stores",
+            "organic_stores"
+        ]
+    ],
+    "reviews": [
+        {
+            "rating": 4,
+            "excerpt": "I used to live near Square One Whole Foods and figured this location would be a 'step up'. It's not. Unfortunately, it's actually not as nice of a shopping...",
+            "time_created": 1448679513,
+            "rating_image_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "rating_image_small_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "user": {
+                "image_url": "http://s3-media4.fl.yelpcdn.com/photo/UXHeWK01NzE0xH8DW2Co-Q/ms.jpg",
+                "id": "a3YVyRuepRGO8wlQD9Og9w",
+                "name": "Kate B."
+            },
+            "rating_image_large_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "id": "bA3KyknZtwcHRFDlxv-mrA"
+        }
+    ],
+    "phone": "4169440500",
+    "snippet_text": "I used to live near Square One Whole Foods and figured this location would be a 'step up'. It's not. Unfortunately, it's actually not as nice of a shopping...",
+    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/7GOlryjmgLxJRX-OcbWFLQ/ms.jpg",
+    "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/UXHeWK01NzE0xH8DW2Co-Q/ms.jpg",
+    "display_phone": "+1-416-944-0500",
+    "rating_img_url_large": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+    "id": "whole-foods-market-toronto",
+    "is_closed": false,
+    "location": {
+        "city": "Toronto",
+        "display_address": [
+            "87 Avenue Road",
+            "The Annex",
+            "Toronto, ON M5R 3R9"
+        ],
+        "geo_accuracy": 9.5,
+        "neighborhoods": [
+            "The Annex"
+        ],
+        "postal_code": "M5R 3R9",
+        "country_code": "CA",
+        "address": [
+            "87 Avenue Road"
+        ],
+        "coordinate": {
+            "latitude": 43.672016,
+            "longitude": -79.395339
+        },
+        "state_code": "ON"
+    }
+},
+{
+    "is_claimed": false,
+    "rating": 3.5,
+    "mobile_url": "http://m.yelp.ca/biz/sandwich-box-toronto-5?utm_campaign=yelp_api&utm_medium=api_v2_business&utm_source=23W1IHykgMhbZw7S7_RFKA",
+    "rating_img_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+    "review_count": 28,
+    "name": "Sandwich Box",
+    "rating_img_url_small": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png",
+    "url": "http://www.yelp.ca/biz/sandwich-box-toronto-5?utm_campaign=yelp_api&utm_medium=api_v2_business&utm_source=23W1IHykgMhbZw7S7_RFKA",
+    "categories": [
+        [
+            "Sandwiches",
+            "sandwiches"
+        ]
+    ],
+    "reviews": [
+        {
+            "rating": 4,
+            "excerpt": "This place is a main food group in my diet. I also visit their other locations when I'm not at home. I have put together so many weird combinations of...",
+            "time_created": 1448747688,
+            "rating_image_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+            "rating_image_small_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+            "user": {
+                "image_url": "http://s3-media2.fl.yelpcdn.com/photo/Eg3eajoBeK5tx-xh0auWIQ/ms.jpg",
+                "id": "W80UMP9s-q9E6lDm5Lg8IQ",
+                "name": "Meena A."
+            },
+            "rating_image_large_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+            "id": "T1Q2Lv4QqU4nMwg2RTl09A"
+        }
+    ],
+    "phone": "4169134444",
+    "snippet_text": "This place is a main food group in my diet. I also visit their other locations when I'm not at home. I have put together so many weird combinations of...",
+    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/MCYIGICrqaPPPPzCLUyE4Q/ms.jpg",
+    "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/Eg3eajoBeK5tx-xh0auWIQ/ms.jpg",
+    "display_phone": "+1-416-913-4444",
+    "rating_img_url_large": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+    "id": "sandwich-box-toronto-5",
+    "is_closed": false,
+    "location": {
+        "city": "Toronto",
+        "display_address": [
+            "1200 Bay Street",
+            "Yorkville",
+            "Toronto, ON M5R"
+        ],
+        "geo_accuracy": 9.5,
+        "neighborhoods": [
+            "Yorkville"
+        ],
+        "postal_code": "M5R",
+        "country_code": "CA",
+        "address": [
+            "1200 Bay Street"
+        ],
+        "coordinate": {
+            "latitude": 43.6699514554078,
+            "longitude": -79.3897712230682
+        },
+        "state_code": "ON"
+    }
+}
+]
