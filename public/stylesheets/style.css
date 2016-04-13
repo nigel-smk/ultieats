@@ -12,5 +12,10 @@ a {
 }
 
 .restaurant-map {
-  background-color: #DD33FF;
+    height: 100%;
+    width: 100%;
+}
+
+.angular-google-map-container {
+    height: 800px;
 }
