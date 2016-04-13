@@ -4,9 +4,11 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var fs = require('fs');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
+var yelp = require('./routes/yelp');
 
 var app = express();
 
@@ -20,11 +22,13 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
+//app.use(express.static(path.join(__dirname, 'node_modules')));
 app.use(express.static(path.join(__dirname, 'views')));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
+app.use('/api/yelp', yelp);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -57,5 +61,18 @@ app.use(function(err, req, res, next) {
   });
 });
 
+// //dynamically add routes from controllers folder
+// (function requireRoutes(routePath){
+//   fs.readdirSync(routePath).forEach(function (file) {
+//     if (file.substr(-3) == '.js') {
+//       console.log(path.join(routePath, file));
+//       route = require('./' + path.join(routePath, file));
+//       route.controller(app);
+//       //recursive
+//     } else if (fs.lstatSync(path.join(routePath, file)).isDirectory()) {
+//       requireRoutes(path.join(routePath, file));
+//     }
+//   });
+// })('./app/controllers');
 
 module.exports = app;

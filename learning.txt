@@ -1,0 +1,6 @@
+https://github.com/angular-ui/angular-google-maps
+https://angular-ui.github.io/angular-google-maps/#!/
+
+http://htmlcolorcodes.com/
+
+http://html2jade.org/

@@ -3,8 +3,24 @@ extends layout
 block content
   .container-fluid(ng-app='app')
     .row.content
-      .col-sm-3.sidenav.restaurant-list
-        h3 Restaurant names go here
+      .col-sm-3.sidenav.restaurant-list(ng-controller='RestaurantCtrl')
+        table.table-bordered
+          thead
+          tbody
+            tr
+              td Some restaurant
+            tr
+              td Some other restaurant
+            tr
+              td That indian restsurant
+            tr
+              td A guy in a trenchcoat
+            tr
+              td Sushi
+            tr
+              td Sushi
+            tr
+              td Sushi
       .col-sm-9.restaurant-map(ng-controller='MapCtrl')
           ui-gmap-google-map(center='map.center', zoom='map.zoom')
     footer.container-fluid
