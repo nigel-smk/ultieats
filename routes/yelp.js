@@ -36,4 +36,8 @@ router.get('/business', function (req, res) {
         });
 });
 
+router.get('/dummy_businesses', function (req, res) {
+    res.json(require('../dummy_data/selected_restaurants.json'))
+});
+
 module.exports = router;
