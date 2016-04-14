@@ -1,5 +1,6 @@
-.body {
-  font-family: "Comic Sans MS", cursive, sans-serif !important;
+body {
+  /* font-family: "Comic Sans MS", cursive, sans-serif !important; */
+  background-color: #35aa47;
 }
 
 .greenbg1 {
@@ -28,9 +29,11 @@
 }
 
 .topbox {
+  /*
   box-shadow: 0px 0px 10px #000;
   position: relative;
   z-index: 5;
+  */
 }
 
 .officebox {
@@ -42,41 +45,41 @@
   color: #fff;
 }
 
-.listbox {
-  height: 700px;
+#listbox {
+  height: 800px;
   overflow-y: scroll;
 }
 
-.mapbox {
-  height: 700px;
+#mapbox {
+  height: 800px;
   overflow: hidden;
 }
 
-.newplace {
-  text-align: center;
-  margin: 15px auto 5px auto;
+#map {
+  height: 800px;
 }
 
-.newplacebutton {
-  min-width: 200px;
-  width: 90%;
-}
-
-#addnewplace {
+/*
+#addbox {
   position: absolute;
   top: 240px;
   left: 710px;
   width: 500px;
-  height: 500px;
+  height: 300px;
   background-color: #fff;
   box-shadow: 2px 2px 5px #000;
 }
 
-.newplaceheader {
+.newplace {
   width: 100%;
   margin: 0px;
-  padding: -5px 10px 0px;
+  padding: 0px 15px 10px 15px;
 }
+
+.newplaceform {
+  margin-top: 10px;
+}
+*/
 
 .listtop {
   font-size: 1.5em;
@@ -99,19 +102,35 @@
   border-top: 1px solid #000;
 }
 
-.comments {
-  height: 150px;
-  background-color: #fff;
-  overflow-y: scroll;
+.shadowtop {
+  box-shadow: 0px 0px -10px #000;
 }
 
-.commentstitle {
-  font-weight: bold;
+.shadowbottom {
+  box-shadow: 0px 0px 10px #000;
+}
+
+.commentscontainer {
+  width: 520px;
+  overflow: hidden;
+}
+
+.comments {
+  height: 150px;
+  width: 510px;
+  background-color: #fff;
+  overflow-y: scroll;
+  margin-top: 20px;
 }
 
 .comment {
   padding: 5px;
   border-bottom: 1px solid #ccc;
+}
+
+.commentstitle {
+  font-weight: bold;
+  margin-top: 2px;
 }
 
 .commentname {
@@ -122,6 +141,28 @@
   
 }
 
+.commentinputrow {
+  margin-top: 10px;
+}
+
+.commentinput {
+  width: 100%;
+}
+
+.newplacebuttoncontainer {
+  text-align: center;
+  margin: 15px auto 5px auto;
+}
+
+.newplacebutton {
+  min-width: 200px;
+  width: 90%;
+}
+
+.placename {
+
+}
+
 .angular-google-map-container {
-  height: 700px;
+    height: 800px;
 }

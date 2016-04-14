@@ -10,12 +10,15 @@ block content
                 a(href='?office=toronto') Toronto
                 a(href='?office=atlanta') Not Toronto
                 a(href='?office=phase610') Phase 610
-        .row
+        .row(ng-controller='MainCtrl')
             // List box
             .col-sm-3.whitebg.listbox(ng-controller='RestaurantCtrl')
                 .row
                     .col-sm-12.newplace
-                        button.btn.btn-primary.btn-lg.newplacebutton I found a new place!
+                        button.btn.btn-primary.btn-lg.newplacebutton(ng-click="newPlace()" ng-hide="newPlaceMode") I found a new place!
+                        input.form-control(type="text" ng-model="newPlaceName.value" ng-show="newPlaceMode" placeholder="What was it called?")
+                        button.btn.btn-primary.btn-sm.newplacebutton(ng-click="newPlace(newPlaceName.value)" ng-show="newPlaceMode") Filter
+                        button.btn.btn-primary.btn-sm.newplacebutton(ng-click="newPlaceDone()" ng-show="newPlaceMode") Done
                 // These ones matter
                 .row(ng-repeat='spot in restaurants.list')
                     .col-sm-12
@@ -24,187 +27,6 @@ block content
                             .col-sm-2 +{{ spot.review_count }}
                         .row.listbottom
                             .col-sm-10 {{ spot.categories[0][0] }}, $5
-                            .col-sm-2
-                                button.btn.btn-primary.btn-sm I'm in!
-                .row
-                    .col-sm-12
-                        .row.greenbg3.listtop
-                            .col-sm-10.listname Xtreme Taste
-                            .col-sm-2 +4
-                        .row.listbottom
-                            .col-sm-10 Mediterranian, $5
-                            .col-sm-2
-                                button.btn.btn-primary.btn-sm I'm in!
-                .row
-                    .col-sm-12
-                        .row.greenbg3.listtop
-                            .col-sm-10.listname BBQ Express
-                            .col-sm-2 +10
-                        .row.listbottom
-                            .col-sm-10 Korean / Canadian, $10
-                            .col-sm-2
-                                button.btn.btn-primary.btn-sm I'm in!
-                .row
-                    .col-sm-12
-                        .row.greenbg3.listtop
-                            .col-sm-10.listname Hemingway's
-                            .col-sm-2 +20
-                        .row.listbottom
-                            .col-sm-10 Beer and Poutine! $How thirsty are you?
-                            .col-sm-2
-                                button.btn.btn-primary.btn-sm I'm in!
-                .row
-                    .col-sm-12
-                        .row.greenbg3.listtop
-                            .col-sm-10.listname Manchu Wok
-                            .col-sm-2 +3
-                        .row.listbottom
-                            .col-sm-10 Chinese, $10
-                            .col-sm-2
-                                button.btn.btn-primary.btn-sm I'm in!
-                // End ones that matter
-                .row
-                    .col-sm-12
-                        .row.greenbg3.listtop
-                            .col-sm-10.listname The sidewalk
-                            .col-sm-2 -435
-                        .row.listbottom
-                            .col-sm-10 Cheap / You get what you pay for, $0
-                            .col-sm-2
-                                button.btn.btn-primary.btn-sm I'm in!
-                .row
-                    .col-sm-12
-                        .row.greenbg3.listtop
-                            .col-sm-10.listname This is a whole lot of text! Oh man, I don't know what I'm going to do with allllllll this text!
-                            .col-sm-2 +999
-                        .row.listbottom
-                            .col-sm-10 Whoa, there's even more text down here! Where'd all this text come from, I wasn't prepared to deal with so much text! Who even wrote all this, anyway?? Wait, is someone copying and pasting? No don't do th- Whoa, there's even more text down here! Where'd all this text come from, I wasn't prepared to deal with so much text! Who even wrote all this, anyway?? Wait, is someone copying and pasting? No don't do th- Whoa, there's even more text down here! Where'd all this text come from, I wasn't prepared to deal with so much text! Who even wrote all this, anyway?? Wait, is someone copying and pasting? No don't do th- Oh, they stopped. Whew!
-                            .col-sm-2
-                                button.btn.btn-primary.btn-sm I'm in!
-                .row
-                    .col-sm-12
-                        .row.greenbg3.listtop
-                            .col-sm-10.listname Sushi
-                            .col-sm-2 +1
-                        .row.listbottom
-                            .col-sm-10 Blah
-                            .col-sm-2
-                                button.btn.btn-primary.btn-sm I'm in!
-                .row
-                    .col-sm-12
-                        .row.greenbg3.listtop
-                            .col-sm-10.listname Sushi
-                            .col-sm-2 -678
-                        .row.listbottom
-                            .col-sm-10 Blah
-                            .col-sm-2
-                                button.btn.btn-primary.btn-sm I'm in!
-                .row
-                    .col-sm-12
-                        .row.greenbg3.listtop
-                            .col-sm-10.listname Not sushi
-                            .col-sm-2 +8
-                        .row.listbottom
-                            .col-sm-10 Blah
-                            .col-sm-2
-                                button.btn.btn-primary.btn-sm I'm in!
-                .row
-                    .col-sm-12
-                        .row.greenbg3.listtop
-                            .col-sm-10.listname Sushi
-                            .col-sm-2 +17
-                        .row.listbottom
-                            .col-sm-10 Blah
-                            .col-sm-2
-                                button.btn.btn-primary.btn-sm I'm in!
-                .row
-                    .col-sm-12
-                        .row.greenbg3.listtop
-                            .col-sm-10.listname Sushi
-                            .col-sm-2 +1
-                        .row.listbottom
-                            .col-sm-10 Blah
-                            .col-sm-2
-                                button.btn.btn-primary.btn-sm I'm in!
-                .row
-                    .col-sm-12
-                        .row.greenbg3.listtop
-                            .col-sm-10.listname Sushi
-                            .col-sm-2 -678
-                        .row.listbottom
-                            .col-sm-10 Blah
-                            .col-sm-2
-                                button.btn.btn-primary.btn-sm I'm in!
-                .row
-                    .col-sm-12
-                        .row.greenbg3.listtop
-                            .col-sm-10.listname Not sushi
-                            .col-sm-2 +8
-                        .row.listbottom
-                            .col-sm-10 Blah
-                            .col-sm-2
-                                button.btn.btn-primary.btn-sm I'm in!
-                .row
-                    .col-sm-12
-                        .row.greenbg3.listtop
-                            .col-sm-10.listname Sushi
-                            .col-sm-2 +17
-                        .row.listbottom
-                            .col-sm-10 Blah
-                            .col-sm-2
-                                button.btn.btn-primary.btn-sm I'm in!
-                .row
-                    .col-sm-12
-                        .row.greenbg3.listtop
-                            .col-sm-10.listname Sushi
-                            .col-sm-2 +1
-                        .row.listbottom
-                            .col-sm-10 Blah
-                            .col-sm-2
-                                button.btn.btn-primary.btn-sm I'm in!
-                .row
-                    .col-sm-12
-                        .row.greenbg3.listtop
-                            .col-sm-10.listname Sushi
-                            .col-sm-2 -678
-                        .row.listbottom
-                            .col-sm-10 Blah
-                            .col-sm-2
-                                button.btn.btn-primary.btn-sm I'm in!
-                .row
-                    .col-sm-12
-                        .row.greenbg3.listtop
-                            .col-sm-10.listname Not sushi
-                            .col-sm-2 +8
-                        .row.listbottom
-                            .col-sm-10 Blah
-                            .col-sm-2
-                                button.btn.btn-primary.btn-sm I'm in!
-                .row
-                    .col-sm-12
-                        .row.greenbg3.listtop
-                            .col-sm-10.listname Sushi
-                            .col-sm-2 +17
-                        .row.listbottom
-                            .col-sm-10 Blah
-                            .col-sm-2
-                                button.btn.btn-primary.btn-sm I'm in!
-                .row
-                    .col-sm-12
-                        .row.greenbg3.listtop
-                            .col-sm-10.listname Sushi
-                            .col-sm-2 +1
-                        .row.listbottom
-                            .col-sm-10 Blah
-                            .col-sm-2
-                                button.btn.btn-primary.btn-sm I'm in!
-                .row
-                    .col-sm-12
-                        .row.greenbg3.listtop
-                            .col-sm-10.listname Sushi
-                            .col-sm-2 -678
-                        .row.listbottom
-                            .col-sm-10 Blah
                             .col-sm-2
                                 button.btn.btn-primary.btn-sm I'm in!
             // End left col
@@ -241,8 +63,4 @@ block content
                             li Water
                             li Sadness
                             li Boredom
-        #addnewplace
-            .row.greenbg3.newplaceheader
-                .col-12-sm
-                    h2 Add a new place!
     // End container
