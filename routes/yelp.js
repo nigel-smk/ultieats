@@ -2,12 +2,7 @@ var express = require('express');
 var router = express.Router();
 var yelpApi = require('yelp');
 
-var yelp = new yelpApi({
-    consumer_key: '23W1IHykgMhbZw7S7_RFKA',
-    consumer_secret: '-qpi5yIzVvPvF9rUw8MwSCmIy6s',
-    token: '0WTEVqE6W4J5uKHyYHRghM8-JHm6f7uA',
-    token_secret: '94HhsgAcyNFUQas6RG1OtuzHxmo'
-});
+var yelp = new yelpApi(require("./keys/yelpKey.json"));
 
 router.get('/search', function (req, res) {
     //take params through query parameters
