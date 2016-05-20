@@ -8,3 +8,6 @@ Ask me for the yelp api token or get your own here:
 https://www.yelp.com/developers/documentation/v2/overview
 
 Demo: http://intense-falls-82539.herokuapp.com/ 
+
+SSO with Slack!
+https://api.slack.com/docs/sign-in-with-slack
