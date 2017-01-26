@@ -1,4 +1,6 @@
-# ultieats
+## This project is at a proof-of-concept stage
+
+# UltiEats
 A personalized Yelp clone for sharing lunch spots with friends and co-workers.
 
 Get your own google maps api token here:
